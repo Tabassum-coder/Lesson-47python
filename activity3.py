@@ -3,10 +3,12 @@
 
 from abc import ABC
 
+#Abstract Class
 class Animal(ABC):
     def move(self):
         pass
 
+#child class
 class Human(Animal):
     def move(self):
         print("I can walk and run")
